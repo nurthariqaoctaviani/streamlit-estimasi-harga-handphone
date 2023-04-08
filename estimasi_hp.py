@@ -17,7 +17,7 @@ predict = ''
 
 if st.button('Kisaran Harga'):
     predict = model.predict([[battery_power,fc,int_memory,n_cores,ram]])
-    st.write('Estimasi Kisaran Harga Handphone Adalah :', predict)
+    st.write('Estimasi Kisaran Harga Handphone Adalah (Juta) :', predict)
 
 
 
